@@ -37,8 +37,8 @@ Tests Executions:
       - @closeValidationMessage
       - @clearUsernameAndPassword
       - @usernameRequired	  
-	    - @passwordRequired
-	    - @usernameAndPasswordAreEmpty
+      - @passwordRequired
+      - @usernameAndPasswordAreEmpty
 
 3. I have created batch files to easily run the tests and you'll be able to choose from either running on "Chrome" or "Firefox" browsers
    When you wan to use chrome or firefox, just use the command: run\chrome.bat <tags here> or run\firefox.bat <tags here>
@@ -48,5 +48,7 @@ Tests Executions:
 4. The test results are saved in the project folder under target\cucumber-jvm-reports\cucumber-html-reports
    You may want to view the overview report using the "overview-features.html" with screenshots for failed tests.
    For json and xml report files are all in target folder
+
+5. I have also included a sample test execution and on how to view the report video file name: TestExecutionAndReportView.mp4	
    
    
