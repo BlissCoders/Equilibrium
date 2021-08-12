@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="17.326">
+    <testcase classname="Login Features" name="Login as valid users and expected to be in the inventory page" time="4.305">
+        <system-out><![CDATA[Given I am on the login page................................................passed
+When I provided the credentials "standard_user" and "secret_sauce"..........passed
+And I try to login..........................................................passed
+Then I should be in the inventory page......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Features" name="Login as valid users and expected to be in the inventory page 2" time="2.633">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given I am on the login page................................................passed
+When I provided the credentials "locked_out_user" and "secret_sauce"........passed
+And I try to login..........................................................passed
+Then I should be in the inventory page......................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at aequilibriumAssessment.stepdefs.InventoryStepDefinitions.i_should_be_in_the_inventory_page(InventoryStepDefinitions.java:13)
+	at ✽.I should be in the inventory page(classpath:aequilibriumAssessment/TestLogin.feature:11)
+]]></failure>
+    </testcase>
+    <testcase classname="Login Features" name="Login as valid users and expected to be in the inventory page 3" time="2.517">
+        <system-out><![CDATA[Given I am on the login page................................................passed
+When I provided the credentials "problem_user" and "secret_sauce"...........passed
+And I try to login..........................................................passed
+Then I should be in the inventory page......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Features" name="Login as valid users and expected to be in the inventory page 4" time="7.667">
+        <system-out><![CDATA[Given I am on the login page................................................passed
+When I provided the credentials "performance_glitch_user" and "secret_sauce".passed
+And I try to login..........................................................passed
+Then I should be in the inventory page......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

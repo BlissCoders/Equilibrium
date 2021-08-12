@@ -1,0 +1,1 @@
+mvn clean verify -Dbrowser=chrome -Dcucumber.filter.tags=%1

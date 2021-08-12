@@ -1,0 +1,16 @@
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\aequilibriumAssessment\stepdefs\InventoryStepDefinitions.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\aequilibriumAssessment\TestBase.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\aequilibriumAssessment\stepdefs\LoginStepDefinitions.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\interactions\Click.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\dataProvider\ConfigFileReader.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\functions\FunctionLogin.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\interactions\Interactions.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\interactions\Navigate.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\interactions\Type.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\uiObjects\TheLoginPage.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\aequilibriumAssessment\RunCucumberTest.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\functions\FunctionInventory.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\aequilibriumAssessment\WebDriverFactory.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\aequilibriumAssessment\Hook.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\uiObjects\TheInventoryPage.java
+F:\GitHub\Aequilibrium\aequilibriumAssessment\src\test\java\page\interactions\WaitElements.java

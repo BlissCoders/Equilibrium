@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: aequilibriumAssessment.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.538 sec <<< FAILURE!
+Login as valid users and expected to be in the inventory page #2(Login Features)  Time elapsed: 2.625 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at aequilibriumAssessment.stepdefs.InventoryStepDefinitions.i_should_be_in_the_inventory_page(InventoryStepDefinitions.java:13)
+	at ?.I should be in the inventory page(classpath:aequilibriumAssessment/TestLogin.feature:11)
+
